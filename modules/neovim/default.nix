@@ -1,6 +1,7 @@
 { extraRC ? ""
 , extraKnownPlugins ? {}
 , extraPluginDictionaries ? []
+# TODO: Move the keyboard layout into modules similar to how themes are structured.
 , keyboardLayout ? "qwerty"
 , pkgs
 , viAlias ? true
